@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: #5D737E;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #004E89;
+  line-height: 25px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #004E89;
+  line-height: 25px;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  width: 600px;
+  margin: 15px auto;
+  border-radius: 2px;
+  box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.list-inline li a {
+  text-decoration: none;
+  color: #5C3F7E;
+  opacity: 0.6;
+  font-size: 20px;
+}
+
+.list-inline li a:hover {
+  opacity: 1;
+}
+
+.btn-blue {
+  background-color: white;
+  border: 1px solid #119DA4;
+  border-radius: 5px;
+  color: #119DA4;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+.btn-blue:hover {
+  color: white;
+  background-color: #119DA4;
+}
+
+.follow {
+  color: #5C3F7E;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+  .card {
+    width: 800px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+  .card {
+    width: 500px;
+  }
+}
+  @media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+  .card {
+    width: 300px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 300px;
+  }
+  .card {
+    width: 100px;
+  }
+}
